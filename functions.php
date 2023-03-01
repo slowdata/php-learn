@@ -2,11 +2,9 @@
 
 function dd($value)
 {
-    echo "
-<pre>";
+    echo "<pre>";
     var_dump($value);
     echo "</pre>";
-
     die();
 }
 
